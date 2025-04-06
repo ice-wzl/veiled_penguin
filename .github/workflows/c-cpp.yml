@@ -1,0 +1,31 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: configure
+      run: ./configure
+    - name: make
+      run: make
+
+    - name: Upload compiled binary
+      uses: actions/upload-artifact@v4
+      with:
+        name: veiledpenguin-static
+        path: ./veiledpenguin-static
+
+    - name: Upload compiled binary
+      uses: actions/upload-artifact@v4
+      with:
+        name: veiledpenguin
+        path: ./veiledpenguin
