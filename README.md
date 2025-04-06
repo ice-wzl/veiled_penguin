@@ -1,6 +1,17 @@
 # veiled_penguin
 ![art](https://github.com/user-attachments/assets/489826d0-6d57-41e5-87a0-d3f7d11dd523)
 
+## DISCLAIMER
+- This software is provided for educational and research purposes only.
+- Use it at your own risk.
+The author of this tool is not responsible for:
+- Any damage caused to systems, data, or devices.
+- Data loss resulting from the use or misuse of this tool.
+- Any illegal activity or unauthorized use of this software.
+- This tool encrypts and irreversibly modifies files.
+- Once encrypted, files are not recoverable.
+By using this software, you agree to take full responsibility for your actions.
+
 ## Overview
 - veiled_penguin is a Linux Crypter. It will recursively walk a linux file system and build a list of files that meet certain criteria as good candidates to crypt.
 - It will then generate a key for each file that requires crypting that is 20 bytes. From there it will crypt each file on the system.
