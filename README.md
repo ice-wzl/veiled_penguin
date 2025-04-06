@@ -1,5 +1,5 @@
 # veiled_penguin
-![ChatGPT Image Apr 6, 2025, 11_09_45 AM](https://github.com/user-attachments/assets/e7e500e8-cfba-4d00-a94b-7e1fffc8eb0a)
+![art](https://github.com/user-attachments/assets/489826d0-6d57-41e5-87a0-d3f7d11dd523)
 
 ## Overview
 - veiled_penguin is a Linux Crypter. It will recursively walk a linux file system and build a list of files that meet certain criteria as good candidates to crypt.
